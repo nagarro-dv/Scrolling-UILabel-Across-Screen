@@ -1,0 +1,38 @@
+How to use it in your app
+
+.h file
+#import "MokriyaUILabelScrollingView.h"
+@interface YourViewController : UIViewController  <UILabelScrollView>
+..
+..
+..
+
+.m file
+ MokriyaUILabelScrollingView *scrollingView = [[MokriyaUILabelScrollingView alloc] initWithFrame:CGRectMake(0, 0, 320, 60)];
+    scrollingView.backgroundColor = [UIColor grayColor];
+    
+    scrollingView.titleLabel.font = [UIFont fontWithName:@"Helvetica-Bold" size:15];
+    scrollingView.titlesArray = [[NSMutableArray alloc] initWithObjects:
+                                 @"Hipster iOS App",
+                                 @"HomeRun iOS & Android App.",
+                                 @"SimpleGeo",
+                                 @"Path",
+                                 @"ThinkAha",
+                                 @"HeyWire",
+                                 @"BottomLine",
+                                 @"MySizeFinder", nil];  
+    [scrollingView prepareAndStart];
+    scrollingView.delegate = self;
+    [self.view addSubview:scrollingView];
+    
+    [scrollingView release];
+
+ии
+
+
+#pragma Delegate Methods
+- (void)didTappedAtIndex:(int)index
+{
+    NSLog(@"Tapped at index %d",index);
+}
+

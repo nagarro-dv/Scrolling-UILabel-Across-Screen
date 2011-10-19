@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0821F9EB144F21FE00CEF2B1 /* MokriyaUILabelScrollingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0821F9EA144F21FE00CEF2B1 /* MokriyaUILabelScrollingView.m */; };
+		08849FB4144EE73200451014 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08849FB3144EE73200451014 /* UIKit.framework */; };
+		08849FB6144EE73200451014 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08849FB5144EE73200451014 /* Foundation.framework */; };
+		08849FB8144EE73200451014 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08849FB7144EE73200451014 /* CoreGraphics.framework */; };
+		08849FBE144EE73200451014 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08849FBC144EE73200451014 /* InfoPlist.strings */; };
+		08849FC1144EE73200451014 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08849FC0144EE73200451014 /* main.m */; };
+		08849FC4144EE73200451014 /* scrollingLabelViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08849FC3144EE73200451014 /* scrollingLabelViewAppDelegate.m */; };
+		08849FC7144EE73200451014 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08849FC5144EE73200451014 /* MainWindow.xib */; };
+		08849FCA144EE73200451014 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08849FC9144EE73200451014 /* RootViewController.m */; };
+		08849FCD144EE73200451014 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08849FCB144EE73200451014 /* RootViewController.xib */; };
+		08849FDD144EE9A100451014 /* MokriyaWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08849FDB144EE9A100451014 /* MokriyaWebViewController.m */; };
+		08849FDE144EE9A100451014 /* MokriyaWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08849FDC144EE9A100451014 /* MokriyaWebViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0821F9E9144F21FE00CEF2B1 /* MokriyaUILabelScrollingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MokriyaUILabelScrollingView.h; sourceTree = "<group>"; };
+		0821F9EA144F21FE00CEF2B1 /* MokriyaUILabelScrollingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MokriyaUILabelScrollingView.m; sourceTree = "<group>"; };
+		08849FAF144EE73200451014 /* scrollingLabelView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrollingLabelView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08849FB3144EE73200451014 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		08849FB5144EE73200451014 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08849FB7144EE73200451014 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		08849FBB144EE73200451014 /* scrollingLabelView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "scrollingLabelView-Info.plist"; sourceTree = "<group>"; };
+		08849FBD144EE73200451014 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08849FBF144EE73200451014 /* scrollingLabelView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "scrollingLabelView-Prefix.pch"; sourceTree = "<group>"; };
+		08849FC0144EE73200451014 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08849FC2144EE73200451014 /* scrollingLabelViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scrollingLabelViewAppDelegate.h; sourceTree = "<group>"; };
+		08849FC3144EE73200451014 /* scrollingLabelViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = scrollingLabelViewAppDelegate.m; sourceTree = "<group>"; };
+		08849FC6144EE73200451014 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		08849FC8144EE73200451014 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		08849FC9144EE73200451014 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		08849FCC144EE73200451014 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		08849FDA144EE9A100451014 /* MokriyaWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MokriyaWebViewController.h; sourceTree = "<group>"; };
+		08849FDB144EE9A100451014 /* MokriyaWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MokriyaWebViewController.m; sourceTree = "<group>"; };
+		08849FDC144EE9A100451014 /* MokriyaWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MokriyaWebViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08849FAC144EE73200451014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08849FB4144EE73200451014 /* UIKit.framework in Frameworks */,
+				08849FB6144EE73200451014 /* Foundation.framework in Frameworks */,
+				08849FB8144EE73200451014 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0821F9ED144F2F4900CEF2B1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				08849FDA144EE9A100451014 /* MokriyaWebViewController.h */,
+				08849FDB144EE9A100451014 /* MokriyaWebViewController.m */,
+				08849FDC144EE9A100451014 /* MokriyaWebViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		08849FA4144EE73200451014 = {
+			isa = PBXGroup;
+			children = (
+				0821F9E9144F21FE00CEF2B1 /* MokriyaUILabelScrollingView.h */,
+				0821F9EA144F21FE00CEF2B1 /* MokriyaUILabelScrollingView.m */,
+				08849FB9144EE73200451014 /* scrollingLabelView */,
+				0821F9ED144F2F4900CEF2B1 /* ViewControllers */,
+				08849FB2144EE73200451014 /* Frameworks */,
+				08849FB0144EE73200451014 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08849FB0144EE73200451014 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08849FAF144EE73200451014 /* scrollingLabelView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08849FB2144EE73200451014 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08849FB3144EE73200451014 /* UIKit.framework */,
+				08849FB5144EE73200451014 /* Foundation.framework */,
+				08849FB7144EE73200451014 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08849FB9144EE73200451014 /* scrollingLabelView */ = {
+			isa = PBXGroup;
+			children = (
+				08849FC2144EE73200451014 /* scrollingLabelViewAppDelegate.h */,
+				08849FC3144EE73200451014 /* scrollingLabelViewAppDelegate.m */,
+				08849FC5144EE73200451014 /* MainWindow.xib */,
+				08849FC8144EE73200451014 /* RootViewController.h */,
+				08849FC9144EE73200451014 /* RootViewController.m */,
+				08849FCB144EE73200451014 /* RootViewController.xib */,
+				08849FBA144EE73200451014 /* Supporting Files */,
+			);
+			path = scrollingLabelView;
+			sourceTree = "<group>";
+		};
+		08849FBA144EE73200451014 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08849FBB144EE73200451014 /* scrollingLabelView-Info.plist */,
+				08849FBC144EE73200451014 /* InfoPlist.strings */,
+				08849FBF144EE73200451014 /* scrollingLabelView-Prefix.pch */,
+				08849FC0144EE73200451014 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08849FAE144EE73200451014 /* scrollingLabelView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08849FD0144EE73200451014 /* Build configuration list for PBXNativeTarget "scrollingLabelView" */;
+			buildPhases = (
+				08849FAB144EE73200451014 /* Sources */,
+				08849FAC144EE73200451014 /* Frameworks */,
+				08849FAD144EE73200451014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = scrollingLabelView;
+			productName = scrollingLabelView;
+			productReference = 08849FAF144EE73200451014 /* scrollingLabelView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08849FA6144EE73200451014 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Fluntro;
+			};
+			buildConfigurationList = 08849FA9144EE73200451014 /* Build configuration list for PBXProject "scrollingLabelView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08849FA4144EE73200451014;
+			productRefGroup = 08849FB0144EE73200451014 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08849FAE144EE73200451014 /* scrollingLabelView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08849FAD144EE73200451014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08849FBE144EE73200451014 /* InfoPlist.strings in Resources */,
+				08849FC7144EE73200451014 /* MainWindow.xib in Resources */,
+				08849FCD144EE73200451014 /* RootViewController.xib in Resources */,
+				08849FDE144EE9A100451014 /* MokriyaWebViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08849FAB144EE73200451014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08849FC1144EE73200451014 /* main.m in Sources */,
+				08849FC4144EE73200451014 /* scrollingLabelViewAppDelegate.m in Sources */,
+				08849FCA144EE73200451014 /* RootViewController.m in Sources */,
+				08849FDD144EE9A100451014 /* MokriyaWebViewController.m in Sources */,
+				0821F9EB144F21FE00CEF2B1 /* MokriyaUILabelScrollingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08849FBC144EE73200451014 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08849FBD144EE73200451014 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		08849FC5144EE73200451014 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08849FC6144EE73200451014 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		08849FCB144EE73200451014 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08849FCC144EE73200451014 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08849FCE144EE73200451014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		08849FCF144EE73200451014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		08849FD1144EE73200451014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "scrollingLabelView/scrollingLabelView-Prefix.pch";
+				INFOPLIST_FILE = "scrollingLabelView/scrollingLabelView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		08849FD2144EE73200451014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "scrollingLabelView/scrollingLabelView-Prefix.pch";
+				INFOPLIST_FILE = "scrollingLabelView/scrollingLabelView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08849FA9144EE73200451014 /* Build configuration list for PBXProject "scrollingLabelView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08849FCE144EE73200451014 /* Debug */,
+				08849FCF144EE73200451014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08849FD0144EE73200451014 /* Build configuration list for PBXNativeTarget "scrollingLabelView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08849FD1144EE73200451014 /* Debug */,
+				08849FD2144EE73200451014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08849FA6144EE73200451014 /* Project object */;
+}
