@@ -13,12 +13,20 @@
     int currentIndex;
     BOOL repeatTitles;
     @private 
+    BOOL triggerLeftSwipeGestureWhenTouchUP;
+    BOOL triggerRightSwipeGestureWhenTouchUP;
     UILabel *titleLabel;
-    UISwipeGestureRecognizer *swipeRightGesture;
-    UISwipeGestureRecognizer *swipeLeftRecognizer;
     UITapGestureRecognizer *tapRecognizer;
     
+    CGRect titleLabelRecentRect;
+    CGPoint touchDownPoint;
+    CGPoint gestureTouchDownPoint;
+    NSTimeInterval currentAnimationDuration;
+    NSTimeInterval currentAnimationDurationLimit;
+    
     id <UILabelScrollViewDelegate> delegate;
+    
+    NSTimer *animationTimer;
 }
 @property (nonatomic, assign) id <UILabelScrollViewDelegate> delegate;
 @property (nonatomic, retain) NSMutableArray *titlesArray;
@@ -26,12 +34,16 @@
 @property (nonatomic, retain) UILabel *titleLabel;
 @property (nonatomic) BOOL repeatTitles;
 
+- (void)animateFunction;
 - (void)prepareAndStart;
 - (void)start;
 - (void)pause;
 - (void)showNextTitle;
 - (void)showPreviousTitle;
 - (void)doAnimation;
+- (void)animationDidFinished;
+- (void)leftSwipeGesture;
+- (void)rightSwipeGesture;
 @end
 
 @protocol UILabelScrollViewDelegate <NSObject>
